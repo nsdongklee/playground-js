@@ -1,8 +1,8 @@
-const test = {
-  name: 'nsdongklee',
-  age: 31
-};
+console.log('1');
 
-console.log(typeof test);
-console.log(test.name);
-console.log(test.age);
+setTimeout(() => {
+  console.log('2');
+}, 1000);
+
+
+console.log('3');
